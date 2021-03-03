@@ -10,9 +10,11 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- task: WhiteSource@21
+- task: SonarCloudPrepare@1
   inputs:
-    cwd: '$(System.DefaultWorkingDirectory)'
+    SonarCloud: 'Benchmark'
+    organization: 'arjen3112'
+    scannerMode: 'Other'
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 
