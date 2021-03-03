@@ -986,6 +986,14 @@ But it might be needed for Java 10, because I get this error, that I don't get w
 
 		<pluginManagement>
 			<plugins>
+			<plugin>
+					<groupId>org.sonarsource.scanner.maven</groupId>
+					<artifactId>sonar-maven-plugin</artifactId>
+					<version>3.7.0.1746	</version>
+					<configuration>
+						<goalPrefix>sonar</goalPrefix>
+					</configuration>
+				</plugin>
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-antrun-plugin</artifactId>
@@ -1207,7 +1215,7 @@ But it might be needed for Java 10, because I get this error, that I don't get w
 	</reporting>
 
 	<properties>
-		<sonar.projectKey>benchmark</sonar.projectKey>
+		<sonar.projectKey>TBMwqVmDDZ</sonar.projectKey>
   		<sonar.organization>arjen3112</sonar.organization>
   		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 		<maven.compiler.source>1.7</maven.compiler.source>
