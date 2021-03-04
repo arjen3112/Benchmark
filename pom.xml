@@ -1218,6 +1218,7 @@ But it might be needed for Java 10, because I get this error, that I don't get w
 		<sonar.projectKey>TBMwqVmDDZ</sonar.projectKey>
   		<sonar.organization>arjen3112</sonar.organization>
   		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+		<sonar.login>b6ed9901e5e8df5ae544783346aa03519b6688a6</sonar.login>
 		<maven.compiler.source>1.7</maven.compiler.source>
 		<maven.compiler.target>1.7</maven.compiler.target>
 		<failOnMissingWebXml>false</failOnMissingWebXml>
